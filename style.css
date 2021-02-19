@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+:root {
+  --bac--col: #1f2937;
+  --sec--col: #5b21b6;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  background-color: var(--bac--col);
+}
+.nav__btn {
+  background-color: var(--sec--col);
+  color: white;
+}
+.dropdown-menu {
+  background-color: var(--bac--col);
+}
+.dropdown-item {
+  background-color: var(--bac--col);
+  color: white;
+}
+
+.jumbotron {
+  background-color: var(--sec--col);
+  color: white;
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+
+.my_blog {
+  margin-top: 0px;
+  background-color: var(--bac--col);
+}
+
+.card {
+  max-width: 100%;
+  /* max-height: 500px; */
+  background-color: var(--sec--col);
+  color: white;
+  border: none;
+  margin: 40px 30px;
+}
+
+.card-img-top {
+  max-width: 100%;
+  height: auto;
+  border: none;
+}
+.card-body {
+  padding: 20px 10px;
+}
+.card-title {
+  font-size: 20px;
+  font-weight: 650;
+}
+.card-text {
+  padding: 7px 2px;
+}
+
+.my-btn {
+  background-color: var(--bac--col);
+  color: white;
+  transform: scale(1);
+  transition: 0.5s;
+  margin-top: 10px;
+}
+
+.my-btn:hover {
+  transform: scale(1) translateY(-15px);
+  color: white;
+}
